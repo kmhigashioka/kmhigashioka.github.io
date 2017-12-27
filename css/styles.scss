@@ -1,0 +1,241 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$bg-color: #f7f7f7;
+$link-color: #424242;
+$text-color: #424242;
+
+html {
+  font-family: "Open Sans";
+  color: $text-color;
+}
+
+body {
+  margin: 0;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 26px; }
+
+button {
+  background-color: transparent;
+  border: 2px solid $link-color;
+  font-size: 16px;
+  font-family: inherit;
+  color: $link-color;
+  padding: 5px 20px;
+  cursor: pointer;
+
+  &.dark {
+    color: $bg-color;
+    border-color: $bg-color;
+  }
+}
+
+input {
+  font-family: inherit;
+  font-size: 16px;
+  background-color: transparent;
+  color: #f7f7f7;
+  border: 0;
+  border-bottom: 2px solid #f7f7f7;
+  width: 300px;
+  padding: 5px 0;
+
+  &:focus { outline: 0; }
+  &::placeholder { color: #f7f7f7}
+}
+
+textarea {
+  background-color: transparent;
+  border: 2px solid $bg-color;
+  color: $bg-color;
+  font-family: inherit;
+  font-size: 16px;
+  
+  &:focus { outline: 0; }
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+section.welcome {
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    padding: 40px;
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin: 0 20px;
+
+        a {
+          color: $link-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .message {
+    padding: 0 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+
+    h1 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+}
+
+section.articles {
+  background-color: #F4C3C8;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  h1 { margin: 40px; }
+  
+  .article-container {
+    display: flex;
+    flex: 1;
+    padding: 0 40px 40px 40px;
+
+    article {
+      display: flex;
+      flex-direction: column;
+
+      h2 { margin: 0; }
+      p { margin: 40px 0; }
+      div {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .separator {
+    border: 1px solid rgba(66, 66, 66, 0.2);
+    margin: 0 40px;
+  }
+}
+
+section.projects {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-color;
+
+  h1 { margin: 40px; }
+  
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0 40px;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex: 0.25;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .masonry-container {
+      display: flex;
+      flex: 1;
+    }
+  }
+}
+
+section.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: $text-color;
+  color: $bg-color;
+
+  h1 { margin: 40px; }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .fields-container, .message-container {
+        margin-bottom: 20px;
+      }
+
+      .fields-container {
+        input:first-child {
+          margin: 0 60px 0 0;
+        }
+      }
+
+      .message-container {
+        display: flex;
+        flex-direction: column;
+
+        label { margin: 0 0 10px 0; }
+        textarea { height: 100px; }
+      }
+      
+      .send-container {
+        button { float: right; }
+        margin-bottom: 40px;
+      }
+
+      .separator {
+        display: flex;
+        margin-bottom: 20px;
+      }
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+        small { font-size: 12px; }
+      }
+
+      .links-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        .fa-stack {
+          margin: 5px;
+        }
+
+        .fa-circle {
+          color: #c4c4c4;
+        }
+
+        .fa-linkedin, .fa-github-alt, .fa-stack-overflow {
+          color: $text-color;
+        }
+      }
+    }
+  }
+}
