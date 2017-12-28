@@ -53,7 +53,7 @@ textarea {
   color: $bg-color;
   font-family: inherit;
   font-size: 16px;
-  
+
   &:focus { outline: 0; }
 }
 
@@ -114,7 +114,7 @@ section.articles {
   margin: 0;
 
   h1 { margin: 40px; }
-  
+
   .article-container {
     display: flex;
     flex: 1;
@@ -145,7 +145,7 @@ section.projects {
   background-color: $bg-color;
 
   h1 { margin: 40px; }
-  
+
   .project-container {
     display: flex;
     flex-direction: row;
@@ -164,6 +164,22 @@ section.projects {
     .masonry-container {
       display: flex;
       flex: 1;
+
+      .wrapper {
+        column-count: 2;
+        font-size: .85em;
+        padding: 0;
+
+        .item {
+          display: inline-block;
+          width: 100%;
+          margin: 0 0 1.5em;
+
+          img {
+            max-width: 100%;
+          }
+        }
+      }
     }
   }
 }
@@ -201,7 +217,7 @@ section.contact {
         label { margin: 0 0 10px 0; }
         textarea { height: 100px; }
       }
-      
+
       .send-container {
         button { float: right; }
         margin-bottom: 40px;
