@@ -207,6 +207,18 @@ section.contact {
       .separator {
         display: flex;
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+
+        hr {
+          height: 1px;
+          flex-grow: 1;
+          color: rgba(247, 247, 247, 0.5);
+          border: none;
+          background-color: rgba(247, 247, 247, 0.5);
+        }
+
+        label { margin: 0 5px; }
       }
 
       .info-container {
