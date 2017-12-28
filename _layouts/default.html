@@ -12,21 +12,21 @@
 <body>
 
 
-  <section class="welcome full-height">
+  <section class="welcome full-height" data-section-name="welcome">
     <header>
       <ul>
         <li>
-          <a href="#">
+          <a href="#articles">
             Articles
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#projects">
             Projects
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#contact">
             Contact
           </a>
         </li>
@@ -40,7 +40,7 @@
   </section>
 
 
-  <section class="articles full-height">
+  <section class="articles full-height" data-section-name="articles">
     <h1>Articles</h1>
 
     <div class="article-container">
@@ -63,7 +63,7 @@
   </section>
 
 
-  <section class="projects full-height">
+  <section class="projects full-height" data-section-name="projects">
     <h1>Projects</h1>
 
     <div class="project-container">
@@ -89,7 +89,7 @@
   </section>
 
 
-  <section class="contact full-height">
+  <section class="contact full-height" data-section-name="contact">
     <h1>Contact</h1>
 
     <div class="form-container">
@@ -140,6 +140,26 @@
       </form>
     </div>
   </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://projects.lukehaas.me/scrollify/script/jquery.scrollify.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(function() {
+        $.scrollify({
+          section : ".full-height",
+          sectionName : "section-name"
+        });
+        
+        ['articles', 'projects', 'contact'].forEach(function (t) {
+          $("a[href*='" + t + "']").click(function() {
+            $.scrollify.move("#" + t);
+          });
+        });
+
+      });
+    });
+  </script>
 </body>
 
 </html>
