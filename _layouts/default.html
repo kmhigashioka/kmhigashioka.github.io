@@ -9,7 +9,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="gray-bgcolor">
 
 
   <section class="welcome full-height" data-section-name="welcome">
@@ -170,6 +170,7 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://projects.lukehaas.me/scrollify/script/jquery.scrollify.js"></script>
+  <script src="http://opensource.teamdf.com/visible/jquery.visible.js"></script>
   <script>
     $(document).ready(function () {
       $(function() {
@@ -184,6 +185,27 @@
           });
         });
 
+        $(this).bind('scroll', onChangeBackgroundColor);
+        onChangeBackgroundColor();
+
+        function onChangeBackgroundColor() {
+          if ($('.welcome h1').visible(true)) {
+            $('body').removeClass();
+            $('body').addClass('gray-bgcolor');
+          }
+          if ($('.articles .article-container').visible(true)) {
+            $('body').removeClass();
+            $('body').addClass('pink-bgcolor');
+          }
+          if ($('.projects .project-container').visible(true)) {
+            $('body').removeClass();
+            $('body').addClass('gray-bgcolor');
+          }
+          if ($('.contact h1').visible(true)) {
+            $('body').removeClass();
+            $('body').addClass('dark-gray-bgcolor');
+          }
+        }
       });
     });
   </script>

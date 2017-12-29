@@ -62,7 +62,6 @@ textarea {
 }
 
 section.welcome {
-  background-color: $bg-color;
   display: flex;
   flex-direction: column;
 
@@ -105,10 +104,6 @@ section.welcome {
 }
 
 section.articles {
-  background-color: #F4C3C8;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -142,7 +137,6 @@ section.articles {
 section.projects {
   display: flex;
   flex-direction: column;
-  background-color: $bg-color;
 
   h1 { margin: 40px; }
 
@@ -187,7 +181,6 @@ section.projects {
 section.contact {
   display: flex;
   flex-direction: column;
-  background-color: $text-color;
   color: $bg-color;
 
   h1 { margin: 40px; }
@@ -270,3 +263,11 @@ section.contact {
     }
   }
 }
+
+.gray-bgcolor, .pink-bgcolor, .dark-gray-bgcolor {
+  transition: 0.5s all;
+}
+
+.gray-bgcolor { background-color: #f7f7f7 }
+.pink-bgcolor { background-color: #F4C3C8 }
+.dark-gray-bgcolor { background-color: #424242 }
