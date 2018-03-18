@@ -11,6 +11,16 @@ $(document).ready(function () {
       });
     });
 
+    $('.projects .masonry-container .content')
+      .on('mouseover', function () {
+        $(this).addClass('fadeIn');
+        $(this).removeClass('fadeOut');
+      })
+      .mouseleave(function () {
+        $(this).removeClass('fadeIn');
+        $(this).addClass('fadeOut');
+      });
+
     $(this).bind('scroll', onChangeBackgroundColor);
     onChangeBackgroundColor();
 

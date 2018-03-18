@@ -168,6 +168,33 @@ section.projects {
           display: inline-block;
           width: 100%;
           margin: 0 0 1.5em;
+          position: relative;
+
+          &:hover {
+            .content {
+              display: block;
+            }
+          }
+
+          .content {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: $bg-color;
+
+            h2 { margin: 40px; }
+
+            p { 
+              font-size: 16px;
+              margin: 0 40px 40px;
+            }
+
+            button {
+              margin: 0 40px;
+            }
+          }
 
           img {
             max-width: 100%;
