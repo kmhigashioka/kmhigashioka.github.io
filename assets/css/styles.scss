@@ -3,8 +3,10 @@
 ---
 
 $bg-color: #f7f7f7;
-$link-color: #424242;
+$link-color: #f4433f;
 $text-color: #424242;
+$secondary-text-color: #757575;
+$border-top-color: #EF999A;
 
 html {
   font-family: "Open Sans";
@@ -57,6 +59,10 @@ textarea {
   &:focus { outline: 0; }
 }
 
+a {
+  color: $link-color;
+}
+
 .full-height {
   min-height: 100vh;
 }
@@ -64,6 +70,7 @@ textarea {
 section.welcome {
   display: flex;
   flex-direction: column;
+  border-top: 5px solid $border-top-color;
 
   header {
     padding: 40px;
@@ -92,114 +99,40 @@ section.welcome {
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    align-items: center;
+
+    img {
+      height: 150px;
+      width: 150px;
+    }
 
     h1 {
-      margin: 0;
+      margin: 30px 0 0 0;
     }
     p {
-      margin: 0;
+      margin: 10px 0 0 0;
       font-size: 18px;
+      text-align: center;
     }
   }
 }
 
-section.articles {
+section.gems {
   display: flex;
-  flex-direction: column;
-  margin: 0;
+  flex-flow: wrap;
+  min-height: 50vh;
+  justify-content: center;
 
-  h1 { margin: 40px; }
-
-  .article-container {
-    display: flex;
-    flex: 1;
-    padding: 0 40px 40px 40px;
+  a {
+    width: calc(33.3333%);
+    height: 245px;
+    overflow: hidden;
 
     article {
-      display: flex;
-      flex-direction: column;
-
-      h2 { margin: 0; }
-      p { margin: 40px 0; }
-      div {
-        display: flex;
-        justify-content: center;
-      }
-    }
-  }
-
-  .separator {
-    border: 1px solid rgba(66, 66, 66, 0.2);
-    margin: 0 40px;
-  }
-}
-
-section.projects {
-  display: flex;
-  flex-direction: column;
-
-  h1 { margin: 40px; }
-
-  .project-container {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    padding: 0 40px;
-
-    ul {
-      display: flex;
-      flex-direction: column;
-      flex: 0.25;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .masonry-container {
-      display: flex;
-      flex: 1;
-
-      .wrapper {
-        column-count: 2;
-        font-size: .85em;
-        padding: 0;
-
-        .item {
-          display: inline-block;
-          width: 100%;
-          margin: 0 0 1.5em;
-          position: relative;
-
-          &:hover {
-            .content {
-              display: block;
-            }
-          }
-
-          .content {
-            opacity: 0;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: $bg-color;
-
-            h2 { margin: 40px; }
-
-            p { 
-              font-size: 16px;
-              margin: 0 40px 40px;
-            }
-
-            button {
-              margin: 0 40px;
-            }
-          }
-
-          img {
-            max-width: 100%;
-          }
-        }
+      img {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
       }
     }
   }
@@ -287,6 +220,75 @@ section.contact {
           color: $text-color;
         }
       }
+    }
+  }
+}
+
+section.post-content {
+  display: flex;
+  flex-direction: column;
+  border-top: 5px solid $border-top-color;
+
+  header {
+    padding: 40px;
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin: 0 20px;
+
+        a {
+          color: $link-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px 80px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    h1 {
+      margin: 0;
+    }
+
+    label.description, label.published, label.author {
+      font-size: 15px;
+    }
+
+    label.description {
+      color: $secondary-text-color;
+      font-style: italic;
+    }
+
+    label.published, label.author {
+      span:first-child {
+        min-width: 100px;
+        display: inline-block;
+      }
+
+      span:last-child {
+        color: $secondary-text-color;
+      }
+    }
+
+    label.published {
+      margin: 30px 0 0 0;
+    }
+
+    label.author {
+      margin: 0 0 30px 0;
     }
   }
 }

@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/needim/noty/77268c46/lib/noty.css">
 </head>
 
 <body class="gray-bgcolor">
@@ -17,13 +18,8 @@
     <header>
       <ul>
         <li>
-          <a href="#articles">
-            Articles
-          </a>
-        </li>
-        <li>
-          <a href="#projects">
-            Projects
+          <a href="#gems">
+            Gems
           </a>
         </li>
         <li>
@@ -35,133 +31,29 @@
     </header>
 
     <div class="message">
-      <h1>But a how more a just of front of workment.</h1>
-      <p>Might the frequencies respect felt ideas each men, lively. Of that five a self-interest, redesigns.</p>
+      <img src="/assets/images/avatar.png" />
+      <h1>But a how more a just of front of workmen.</h1>
+      <p>Might the frequencies respect felt ideas each men, lively. Of that five a self-interest, redesigns. In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready.</p>
     </div>
   </section>
 
 
-  <section class="articles full-height" data-section-name="articles">
-    <h1>Articles</h1>
-
-    <div class="article-container">
-      <article>
-        <h2>{{site.posts[0].title}}</h2>
-        <p>{{site.posts[0].excerpt}}</p>
-        <div>
-          <button>Read More</button>
-        </div>
-      </article>
-      <div class="separator"></div>
-      <article>
-        <h2>{{site.posts[1].title}}</h2>
-        <p>{{site.posts[1].excerpt}}</p>
-        <div>
-          <button>Read More</button>
-        </div>
+  <section id="gems" class="gems">
+    {% for post in site.posts %}
+      <a href="{{ post.url }}">
+        <article>
+          <img src="{{post.image}}" />
         </article>
-    </div>
+      </a>
+    {% endfor %}
   </section>
 
 
-  <section class="projects full-height" data-section-name="projects">
-    <h1>Projects</h1>
-
-    <div class="project-container">
-      <ul>
-        <li>
-          <a href="#">.net</a>
-        </li>
-        <li>
-          <a href="#">android</a>
-        </li>
-        <li>
-          <a href="#">angular</a>
-        </li>
-        <li>
-          <a href="#">java</a>
-        </li>
-        <li>
-          <a href="#">meteor</a>
-        </li>
-      </ul>
-      <div class="masonry-container">
-        <div class="wrapper">
-          <div class="item">
-            <div class="content animated">
-              <h2>overreact</h2>
-              <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-              <button class="dark">Read More</button>
-            </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/2.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/3.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/4.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/8.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/9.jpg">
-          </div>
-          <div class="item">
-              <div class="content animated">
-                <h2>overreact</h2>
-                <p>overreact is a cli tool to generate template/snippet for react/redux.</p>
-                <button class="dark">Read More</button>
-              </div>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/7.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="contact full-height" data-section-name="contact">
+  <section id="contact" class="contact full-height dark-gray-bgcolor" data-section-name="contact">
     <h1>Contact</h1>
 
     <div class="form-container">
-      <form>
+      <form id="inquiry-form">
         <div class="fields-container">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
@@ -210,8 +102,7 @@
   </section>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://projects.lukehaas.me/scrollify/script/jquery.scrollify.js"></script>
-  <script src="http://opensource.teamdf.com/visible/jquery.visible.js"></script>
+  <script src="https://cdn.rawgit.com/needim/noty/77268c46/lib/noty.min.js"></script>
   <script src="/assets/js/script.js"></script>
 </body>
 
