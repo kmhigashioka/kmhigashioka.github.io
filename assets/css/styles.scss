@@ -7,6 +7,7 @@ $link-color: #f4433f;
 $text-color: #424242;
 $secondary-text-color: #757575;
 $border-top-color: #EF999A;
+$sm-max-width: 767px;
 
 html {
   font-family: "Open Sans";
@@ -47,7 +48,8 @@ input {
   box-shadow: none;
 
   &:focus { outline: 0; }
-  &::placeholder { color: #f7f7f7}
+  &::placeholder { color: #f7f7f7; }
+  &:-webkit-autofill { background-color: transparent; }
 }
 
 textarea {
@@ -124,7 +126,9 @@ section.welcome {
 
     h1 {
       margin: 30px 0 0 0;
+      text-align: center;
     }
+
     p {
       margin: 10px 0 0 0;
       font-size: 18px;
@@ -159,7 +163,7 @@ section.contact {
   flex-direction: column;
   color: $bg-color;
 
-  h1 { margin: 40px; }
+  h1, .form-container { margin: 40px; }
 
   .form-container {
     display: flex;
@@ -305,6 +309,48 @@ section.post-content {
 
     label.author {
       margin: 0 0 30px 0;
+    }
+  }
+}
+
+@media only screen and (max-width : $sm-max-width) {
+  section.gems {
+    a {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  section.post-content {
+    .content-container {
+      margin: 0 5px 5px;
+      padding: 30px;
+
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  section.contact {
+    .fields-container {
+      input {
+        width: 100%;
+
+        &:first-child {
+          margin: 0 !important;
+        }
+
+        &[name=name] {
+          margin-bottom: 20px !important;
+        }
+      }
+    }
+
+    .send-container {
+      button {
+        width: 100%;
+      }
     }
   }
 }
