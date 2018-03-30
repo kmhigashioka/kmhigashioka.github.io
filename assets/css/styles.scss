@@ -44,6 +44,7 @@ input {
   border-bottom: 2px solid #f7f7f7;
   width: 300px;
   padding: 5px 0;
+  box-shadow: none;
 
   &:focus { outline: 0; }
   &::placeholder { color: #f7f7f7}
@@ -55,8 +56,23 @@ textarea {
   color: $bg-color;
   font-family: inherit;
   font-size: 16px;
+  box-shadow: none;
 
   &:focus { outline: 0; }
+}
+
+form.dirty {
+  input {
+    &:invalid:required {
+      border-bottom: 2px solid #d32f2f;
+    }
+  }
+
+  textarea {
+    &:invalid:required {
+      border: 2px solid #d32f2f;
+    }
+  }
 }
 
 a {

@@ -6,12 +6,12 @@ $(document).ready(function () {
     }
 
     $('a[href*=\\#]').on('click', function(event){     
-        event.preventDefault();
-        smoothScrollingTo(this.hash);
+      event.preventDefault();
+      smoothScrollingTo(this.hash);
     });
 
-    $(document).ready(function(){
-      smoothScrollingTo(location.hash);
+    $('#inquiry-form button[type=submit]').on('click', function () {
+      $('#inquiry-form').addClass('dirty');
     });
 
     $('#inquiry-form').submit(function (event) {
@@ -35,34 +35,17 @@ $(document).ready(function () {
       $.ajax({
         method: 'POST',
         data: JSON.stringify({
-          "personalizations": [
-            {
-              "to": [
-                {
-                  "email": "john@example.com"
-                }
-              ],
-              "subject": "Hello, World!"
-            }
-          ],
-          "from": {
-            "email": "from_address@example.com"
-          },
-          "content": [
-            {
-              "type": "text/plain",
-              "value": "Hello, World!"
-            }
-          ]
-        }
-        ),
-        dataType: 'json',
+          name: $('#inquiry-form input[name=name]').val(),
+          email: $('#inquiry-form input[name=email]').val(),
+          phoneNumber: $('#inquiry-form input[name=phone_number]').val(),
+          inquiry: $('#inquiry-form textarea[name=inquiry]').val()
+        }),
         processData: false,
-        url: 'https://api.sendgrid.com/v3/mail/send',
         headers: {
-          'Authorization': 'bearer ',
           'Content-Type': 'application/json'
         },
+        dataType: 'text',
+        url: 'https://send.haboob.co/v1/hooks/rJoVMVsqz/send/production',
         error: function (jqXHR, textStatus, errorThrown) {
           info.setTimeout(notyOpt.outTimeout);
 
@@ -78,7 +61,7 @@ $(document).ready(function () {
 
           new Noty({
             theme: notyOpt.theme,
-            text: 'Query successfully sent from <email here>.',
+            text: 'Query successfully sent from ' + $('#inquiry-form input[name=email]').val() + '.',
             type: 'success',
             timeout: notyOpt.inTimeout
           }).show();

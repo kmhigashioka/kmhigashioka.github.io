@@ -55,15 +55,15 @@
     <div class="form-container">
       <form id="inquiry-form">
         <div class="fields-container">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
+          <input name="name" type="text" placeholder="Name" required />
+          <input name="email" type="email" placeholder="Email" required />
         </div>
         <div class="fields-container">
-          <input type="text" placeholder="Phone Number" />
+          <input name="phone_number" type="text" placeholder="Phone Number" />
         </div>
         <div class="row-item message-container">
           <label>How can I help you?</label>
-          <textarea></textarea>
+          <textarea name="inquiry" required></textarea>
         </div>
         <div class="send-container">
           <button class="dark" type="submit">Send</button>
