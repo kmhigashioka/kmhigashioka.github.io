@@ -134,7 +134,7 @@ const Writing = () => (
       return (
         isMediumUserDefine && (
           <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="✍️" label="writing" />
+            <Section.Header name="Writing" label="writing" />
             <CardContainer minWidth="300px">
               {posts.map(p => (
                 <Fade bottom>
