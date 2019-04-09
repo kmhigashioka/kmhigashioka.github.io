@@ -589,222 +589,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "ntiequ7mc6q6"
-          }
-        },
-        "id": "5lzMxuCX84uYqmgGmU8iKU",
-        "type": "Entry",
-        "createdAt": "2018-09-08T08:08:42.747Z",
-        "updatedAt": "2018-09-17T12:09:24.193Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedCounter": 12,
-        "version": 1186,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedVersion": 1185,
-        "firstPublishedAt": "2018-09-08T08:18:29.722Z",
-        "publishedAt": "2018-09-17T12:09:24.193Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "about"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Mate"
-        },
-        "description": {
-          "en-US": "Gatsby v2 starter to create a top notch portfolio!"
-        },
-        "roles": {
-          "en-US": [
-            "Quick setup 🚀",
-            "Responsive 📱",
-            "PWA ✨",
-            "Contentful CMS 🔧"
-          ]
-        },
-        "socialLinks": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4SrlLN9bt6Yew2UyGgM06a"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3DpgtG8qI8QCWyEAuME4Ku"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "114ApRkJZq640w8G2GwM8w"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4J6WFTjoMUCmQKuKAaOsqE"
-              }
-            }
-          ]
-        },
-        "profile": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "6nf3rNaaVaUqYcoAcciSeC"
-            }
-          }
-        },
-        "aboutMe": {
-          "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
-        },
-        "mediumUser": {
-          "en-US": "@emasuriano"
-        },
-        "projects": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "6Y7EIx73nUCWuoIWcsuM00"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "2GKNR2f4z6IwAg6a2MmKCc"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5paxSRHbAkmgMc4WSW8S66"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ntiequ7mc6q6"
-          }
-        },
-        "id": "4SrlLN9bt6Yew2UyGgM06a",
-        "type": "Entry",
-        "createdAt": "2018-09-08T08:10:31.702Z",
-        "updatedAt": "2018-09-08T08:10:51.574Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 10,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedVersion": 9,
-        "firstPublishedAt": "2018-09-08T08:10:51.574Z",
-        "publishedAt": "2018-09-08T08:10:51.574Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "socialLink"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Github"
-        },
-        "url": {
-          "en-US": "https://github.com/EmaSuriano/gatsby-starter-mate/blob/master/README.md"
-        },
-        "fontAwesomeIcon": {
-          "en-US": "github"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ntiequ7mc6q6"
+            "id": "8sm5dd83dp8u"
           }
         },
         "id": "5paxSRHbAkmgMc4WSW8S66",
         "type": "Entry",
-        "createdAt": "2018-09-08T08:25:47.955Z",
-        "updatedAt": "2018-09-08T09:40:56.658Z",
+        "createdAt": "2019-04-04T13:18:24.414Z",
+        "updatedAt": "2019-04-09T09:17:32.847Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -812,32 +603,32 @@
             "linkType": "Environment"
           }
         },
+        "publishedVersion": 5,
+        "publishedAt": "2019-04-09T09:17:32.847Z",
+        "firstPublishedAt": "2019-04-04T13:18:32.213Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedCounter": 2,
-        "version": 51,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedVersion": 50,
-        "firstPublishedAt": "2018-09-08T08:38:15.314Z",
-        "publishedAt": "2018-09-08T09:40:56.657Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -882,13 +673,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "ntiequ7mc6q6"
+            "id": "8sm5dd83dp8u"
           }
         },
-        "id": "2GKNR2f4z6IwAg6a2MmKCc",
+        "id": "4SrlLN9bt6Yew2UyGgM06a",
         "type": "Entry",
-        "createdAt": "2018-09-08T09:31:01.989Z",
-        "updatedAt": "2018-09-08T09:43:24.088Z",
+        "createdAt": "2019-04-04T13:18:24.435Z",
+        "updatedAt": "2019-04-09T12:18:33.162Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -896,32 +687,98 @@
             "linkType": "Environment"
           }
         },
+        "publishedVersion": 14,
+        "publishedAt": "2019-04-09T12:18:33.162Z",
+        "firstPublishedAt": "2019-04-04T13:18:25.812Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedCounter": 2,
-        "version": 32,
+        "publishedCounter": 4,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedVersion": 31,
-        "firstPublishedAt": "2018-09-08T09:34:11.498Z",
-        "publishedAt": "2018-09-08T09:43:24.088Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "GitHub"
+        },
+        "url": {
+          "en-US": "https://github.com/kmhigashioka"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "github"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8sm5dd83dp8u"
+          }
+        },
+        "id": "2GKNR2f4z6IwAg6a2MmKCc",
+        "type": "Entry",
+        "createdAt": "2019-04-04T13:18:24.453Z",
+        "updatedAt": "2019-04-09T09:17:30.861Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2019-04-09T09:17:30.861Z",
+        "firstPublishedAt": "2019-04-04T13:18:31.352Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
         "contentType": {
           "sys": {
             "type": "Link",
@@ -966,13 +823,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "ntiequ7mc6q6"
+            "id": "8sm5dd83dp8u"
           }
         },
         "id": "6Y7EIx73nUCWuoIWcsuM00",
         "type": "Entry",
-        "createdAt": "2018-09-08T09:34:51.064Z",
-        "updatedAt": "2018-09-08T09:38:14.627Z",
+        "createdAt": "2019-04-04T13:18:24.793Z",
+        "updatedAt": "2019-04-09T09:17:29.834Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -980,32 +837,32 @@
             "linkType": "Environment"
           }
         },
+        "publishedVersion": 5,
+        "publishedAt": "2019-04-09T09:17:29.834Z",
+        "firstPublishedAt": "2019-04-04T13:18:30.562Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedCounter": 4,
-        "version": 20,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedVersion": 19,
-        "firstPublishedAt": "2018-09-08T09:35:59.528Z",
-        "publishedAt": "2018-09-08T09:38:14.627Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1050,145 +907,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "ntiequ7mc6q6"
-          }
-        },
-        "id": "3DpgtG8qI8QCWyEAuME4Ku",
-        "type": "Entry",
-        "createdAt": "2018-09-17T12:07:45.316Z",
-        "updatedAt": "2018-09-17T12:08:02.358Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 14,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedVersion": 13,
-        "firstPublishedAt": "2018-09-17T12:08:02.358Z",
-        "publishedAt": "2018-09-17T12:08:02.358Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "socialLink"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Medium"
-        },
-        "url": {
-          "en-US": "https://medium.com/@emasuriano"
-        },
-        "fontAwesomeIcon": {
-          "en-US": "medium"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ntiequ7mc6q6"
-          }
-        },
-        "id": "114ApRkJZq640w8G2GwM8w",
-        "type": "Entry",
-        "createdAt": "2018-09-17T12:08:27.655Z",
-        "updatedAt": "2018-09-17T12:08:43.183Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 5,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedVersion": 4,
-        "firstPublishedAt": "2018-09-17T12:08:43.183Z",
-        "publishedAt": "2018-09-17T12:08:43.183Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "socialLink"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Contact me"
-        },
-        "url": {
-          "en-US": "https://emanuelsuriano.typeform.com/to/OeETl6"
-        },
-        "fontAwesomeIcon": {
-          "en-US": "envelope"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ntiequ7mc6q6"
+            "id": "8sm5dd83dp8u"
           }
         },
         "id": "4J6WFTjoMUCmQKuKAaOsqE",
         "type": "Entry",
-        "createdAt": "2018-09-17T12:08:48.454Z",
-        "updatedAt": "2018-09-17T12:08:57.490Z",
+        "createdAt": "2019-04-04T13:18:25.084Z",
+        "updatedAt": "2019-04-09T12:18:59.257Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1196,32 +921,32 @@
             "linkType": "Environment"
           }
         },
+        "publishedVersion": 10,
+        "publishedAt": "2019-04-09T12:18:59.257Z",
+        "firstPublishedAt": "2019-04-04T13:18:27.401Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 4,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
           }
         },
-        "publishedVersion": 4,
-        "firstPublishedAt": "2018-09-17T12:08:57.490Z",
-        "publishedAt": "2018-09-17T12:08:57.490Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1235,10 +960,280 @@
           "en-US": "Twitter"
         },
         "url": {
-          "en-US": "https://twitter.com/emasuriano"
+          "en-US": "https://twitter.com/kmhigashioka"
         },
         "fontAwesomeIcon": {
           "en-US": "twitter"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8sm5dd83dp8u"
+          }
+        },
+        "id": "5lzMxuCX84uYqmgGmU8iKU",
+        "type": "Entry",
+        "createdAt": "2019-04-04T13:18:25.101Z",
+        "updatedAt": "2019-04-09T12:26:24.480Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 98,
+        "publishedAt": "2019-04-09T12:26:24.480Z",
+        "firstPublishedAt": "2019-04-04T13:18:26.536Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 99,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "about"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Kazu"
+        },
+        "description": {
+          "en-US": "Full Stack Developer, Computer Scientist, Microsoft Stack Enthusiast."
+        },
+        "roles": {
+          "en-US": [".Net Core", "React JS", "AngularJS"]
+        },
+        "socialLinks": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4SrlLN9bt6Yew2UyGgM06a"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6namHkpdnEE04j893qOn3h"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2p4Tsxqf3aGtgx0aPKZ59R"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4J6WFTjoMUCmQKuKAaOsqE"
+              }
+            }
+          ]
+        },
+        "profile": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6nf3rNaaVaUqYcoAcciSeC"
+            }
+          }
+        },
+        "aboutMe": {
+          "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+        },
+        "mediumUser": {
+          "en-US": "@kmhigashioka"
+        },
+        "projects": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6Y7EIx73nUCWuoIWcsuM00"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2GKNR2f4z6IwAg6a2MmKCc"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5paxSRHbAkmgMc4WSW8S66"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8sm5dd83dp8u"
+          }
+        },
+        "id": "6namHkpdnEE04j893qOn3h",
+        "type": "Entry",
+        "createdAt": "2019-04-09T12:19:15.588Z",
+        "updatedAt": "2019-04-09T12:21:25.982Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2019-04-09T12:21:25.982Z",
+        "firstPublishedAt": "2019-04-09T12:21:25.982Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "StackOverflow"
+        },
+        "url": {
+          "en-US": "https://stackoverflow.com/users/story/2370190"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "stack-overflow"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8sm5dd83dp8u"
+          }
+        },
+        "id": "2p4Tsxqf3aGtgx0aPKZ59R",
+        "type": "Entry",
+        "createdAt": "2019-04-09T12:21:33.863Z",
+        "updatedAt": "2019-04-09T12:24:17.628Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2019-04-09T12:24:17.628Z",
+        "firstPublishedAt": "2019-04-09T12:24:17.628Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0NqXtVQnpM65RJ9MkymyAR"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Pluralsight"
+        },
+        "url": {
+          "en-US": "https://app.pluralsight.com/profile/kmhigashioka"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "user"
         }
       }
     }
@@ -1449,76 +1444,6 @@
               }
             },
             "fileName": "600px-Facebook_logo_%28square%29.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ntiequ7mc6q6"
-          }
-        },
-        "id": "6nf3rNaaVaUqYcoAcciSeC",
-        "type": "Asset",
-        "createdAt": "2018-09-09T20:57:29.181Z",
-        "updatedAt": "2018-09-09T20:57:42.989Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 11,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2XGcyQ3vKgm55htxMAIqsM"
-          }
-        },
-        "publishedVersion": 10,
-        "firstPublishedAt": "2018-09-09T20:57:42.989Z",
-        "publishedAt": "2018-09-09T20:57:42.989Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Mate Logo"
-        },
-        "description": {
-          "en-US": "Mate Logo"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/ntiequ7mc6q6/6nf3rNaaVaUqYcoAcciSeC/4433ecac61b8aa767edd9e11739bb30a/Mate_Logo.png",
-            "details": {
-              "size": 52527,
-              "image": {
-                "width": 946,
-                "height": 948
-              }
-            },
-            "fileName": "Mate Logo.png",
             "contentType": "image/png"
           }
         }
